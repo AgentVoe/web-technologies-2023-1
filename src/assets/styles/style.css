@@ -2,10 +2,123 @@
 @import "./fonts.css";
 @import "./utils.css";
 
+
+
 .test {
     color: yellow !important;
 }
 
 .test {
     color: red !important;
+}
+
+/* Стили для параграфов */
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+  }
+  
+  /* Стили для заголовка h1 */
+  .h1-style {
+    font-size: 64px;
+    color: #1F3F68;
+  }
+  
+  /* Стили для заголовка h2 (на странице контакты) */
+  .h2-style {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+  }
+  
+  /* Стили для заголовка h3 */
+  .h3-style {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  /* Стили для заголовков h4 */
+  .h4-style {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+  }
+  
+  /* Стили для всех полей ввода (input, textarea) */
+  .input-style {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+  }
+  
+  /* Стили для кнопки отправки формы */
+  .submit-button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  
+
+.form {
+    background-image: url("./../img/серик.jpg"); /* Путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form label, form input, form textarea, form button {
+    margin: 10px 0;
+}
+
+.form input, form textarea {
+    width: 100%;
+}
+
+.custom-button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(86, 17, 255, 1) 23%, rgba(255, 0, 183, 1) 100%);
+}
+
+.breadcrumbs {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(81, 142 , 143, 1) 39%);
+    color: black;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+.breadcrumbs li {
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 2px 0 0 0 black;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.breadcrumbs li a {
+    text-decoration: none;
+    color: black;
+}
+
+.crumbs {
+    padding: 0;
+}
+
+.crumbs li {
+    display: inline;
 }
