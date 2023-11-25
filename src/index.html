@@ -4,45 +4,44 @@
     <meta charset = "UTF-8">
     <title>Website</title>
     <link rel="stylesheet" href="assets/styles/style.css">
-    <meta content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
 </head>
 <body>
     <header class="headerBlock">
-        <nav>
-            <a href="">IT WEBSITE</a>
-            <ul>
-                <li>
-                    <a href="">Services</a>
-                </li>
-                <li>
-                    <a href="">Media</a></li>
-                <li>
-                    <a href="">Cases</a>
-                </li>
-                <li>
-                    <a href="">FAQ</a>
-                </li>
-                <li>
-                    <a href="">Contacts</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
+            <a class="headerName" href="">IT WEBSITE</a>
+        <div class="headerNavigation">
+            <a href="">Services</a>
+            <a href="">Media</a>
+            <a href="">Cases</a>
+            <a href="">FAQ</a>
+            <a href="">Contacts</a>
+        </div>
+
+        <div class="headerContacts">
+            <div class="contactsWithIcon">
+                <img src="assets/icons/smartphone_outline_24.svg">
+                <div class="headerContacts">
                     <a href="">+7 (111) 111 11 11</a>
-                </li>
-                <li>
                     <a href="">+7 (111) 111 11 11</a>
-                </li>
-                <li>
-                    <a href="">itcompany@mail.com</a>
-                </li>
-            </ul>
-        </nav>
+                </div>
+            </div>
+            <div class="contactsWithIcon">
+                <img src="assets/icons/mail_outline_24.svg">
+                <div class="headerContacts">
+                    <a class = "headerText" href="">itcompany@mail.com</a>
+                </div>
+            </div>
+        </div>
     </header>
 
-<hr>
 <main>
     <div class="info">
+        <img src="assets/img/a36c3a4ec102a195973cbe4fbc3fea5c.jpg" class="commentImage" style="left: 680px; top:-565px;">
+        <img src="assets/img/1fdd7019358e36058cc39b3d75a00650.jpg" class="commentImageMain" style="left: 815px; top:72px;">
+        <img src="assets/img/79b8a5271413d3d6702d67c67e15d61e.jpg" class="commentImage" style="left: 1000px; top:-633px;">
+        <img src="assets/img/3753063cc6eb05349413d78a81b45e69.jpg" class="commentImage" style="left: 1150px; top:25px;">
+        <img src="assets/img/326cfa77ea7a32877d117b9d37fef91e.jpg" class="commentImage" style="left: 950px; top:750px;">
+        <img src="assets/img/51444cc33986f9e8c619b53484be1140.jpg" class="commentImage" style="left: 1280px; top:680px;">
         <div class="infoCompanyText" >
             <h1>Development of mobile applications and web services of any complexity</h1>
             <p>We create mobile applications for iOS, Android that transfer your business to mobile applications of your customers' devices</p>
@@ -53,11 +52,17 @@
             <div class="clientContacts">
                 <form>
                     <label>Phone number
-                        <input type="text" placeholder="🇰🇿 +7 (111) 111-11-11">
+                        <input type="text" placeholder="kz+7 (111) 111-11-11">
                     </label>
+                    <img src="assets/icons/Vector%20214.svg">
+                </form>     
+                <form>
                     <label>Full name
                         <input type="text" placeholder="Иван Иванов">
                     </label>
+                    <img src="assets/icons/Vector%20214.svg">
+                </form>
+                <form>
                     <button type="button">Get consultation</button>
                 </form>
             </div>
@@ -204,7 +209,7 @@
 
 <hr>
 
-    <div class="disscussYourProject">
+    <div class="discussYourProject">
         <div class="discussText">
             <h1>Let's discuss Your project</h1>
             <p>Let's figure out how to create an effective application, its cost and terms of its development</p>
@@ -324,31 +329,46 @@
 <hr>
 
 <footer>
-    <div class="footer">
-        <h1>IT WEBSITE</h1>
-        <div class="contacts">
-            <div class="contact">
+<div class="footer">
+    <h1>IT WEBSITE</h1>
+    <div class="contacts_footer">
+        <div class="contact_footer">
+            <div class="contactsWithIcon">
+                <img src="assets/icons/smartphone_outline_24_gray.svg">
                 <h5>Contact nums</h5>
-                <p>+7 (778) 395 90 26</p>
             </div>
+            <p>+7 (778) 395 90 26</p>
+        </div>
 
-            <div class="contact">
+        <div class="contact_footer">
+            <div class="contactsWithIcon">
+                <img src="assets/icons/mail_outline_24_gray.svg">
                 <h5>Post</h5>
-                <p>mail@mail.com</p>
             </div>
+            <p>mail@mail.com</p>
+        </div>
 
-            <div class="contact">
+        <div class="contact_footer">
+            <div class="contactsWithIcon">
+                <img src="assets/icons/place_outline_24.svg">
                 <h5>Adress</h5>
-                <p>City city, steet st. 90</p>
             </div>
+            <p>City city, steet st. 90</p>
+        </div>
 
-            <div class="contact">
+        <div class="contact_footer">
+            <div class="contactsWithIcon">
+                <img src="assets/icons/document_outline_24.svg">
                 <h5>Leave a request</h5>
-                <p>Leave a request</p>
             </div>
-            <p>We work throughout world</p>
+            <p>Leave a request</p>
         </div>
     </div>
+    <div class="footer_end">
+        <img src="assets/icons/Vector.svg">
+        <p>We work throughout world</p>
+    </div>
+</div>
 </footer>
 </body>
 </html>
