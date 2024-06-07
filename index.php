@@ -1,5 +1,5 @@
 <?php
-//Задание 1
+// Задание 1
 $a = -10;
 $b = -5;
 
@@ -16,14 +16,51 @@ function calculate($a, $b) {
 $result1 = calculate($a, $b);
 echo ("<p><b>Задание 1</b></p>" . "<p>Результат = " . $result1 . "</p>");
 
-//Задание 2
-$a = 1;
+// Задание 2
+$a = rand(0, 15); 
 $result2 = "";
-for ($i = $a; $i <= 15; $i++) {
-    $result2 .= $i . ", ";
+
+switch ($a) {
+    case 0:
+        $result2 .= "0, ";
+    case 1:
+        $result2 .= "1, ";
+    case 2:
+        $result2 .= "2, ";
+    case 3:
+        $result2 .= "3, ";
+    case 4:
+        $result2 .= "4, ";
+    case 5:
+        $result2 .= "5, ";
+    case 6:
+        $result2 .= "6, ";
+    case 7:
+        $result2 .= "7, ";
+    case 8:
+        $result2 .= "8, ";
+    case 9:
+        $result2 .= "9, ";
+    case 10:
+        $result2 .= "10, ";
+    case 11:
+        $result2 .= "11, ";
+    case 12:
+        $result2 .= "12, ";
+    case 13:
+        $result2 .= "13, ";
+    case 14:
+        $result2 .= "14, ";
+    case 15:
+        $result2 .= "15, ";
+        break;
+    default:
+        $result2 .= "Значение вне диапазона 0-15";
 }
+
 $result2 = rtrim($result2, ", ");
 echo ("<p><b>Задание 2</b></p>" . "<p>Результат = " . $result2 . "</p>");
+
 
 //Задание 3
 function summ($a, $b) {
