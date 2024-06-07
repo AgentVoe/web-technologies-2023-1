@@ -17,6 +17,7 @@ $result1 = calculate($a, $b);
 echo ("<p><b>Задание 1</b></p>" . "<p>Результат = " . $result1 . "</p>");
 
 //Задание 2
+$a = 1;
 $result2 = "";
 for ($i = $a; $i <= 15; $i++) {
     $result2 .= $i . ", ";
