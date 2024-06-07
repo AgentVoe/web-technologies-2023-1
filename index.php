@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Yekaterinburg');
 $title = 'php-16';
-$content_h1 = "Заголовок для тега h1 главной страницы";
+$content_h1 = "Время";
 
 function getCorrectFormatTime($current_time): string
 {
